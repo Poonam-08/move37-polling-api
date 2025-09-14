@@ -14,7 +14,6 @@
 2. Create `.env` with your PostgreSQL credentials
 3. Install dependencies:
 
-```bash
 npm install
 
 4. Run Prisma migration:
@@ -36,5 +35,6 @@ pollUpdate – Broadcast updated poll results
 
 
 ---
+
 
 ### 
