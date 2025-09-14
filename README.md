@@ -14,27 +14,27 @@
 2. Create `.env` with your PostgreSQL credentials
 3. Install dependencies:
 
-npm install
+    npm install
 
 4. Run Prisma migration:
 
-npx prisma migrate dev --name init
+    npx prisma migrate dev --name init
 
 5. Start the server:
 
-npm run dev
+    npm run dev
 
 6. Test API routes with Postman or Curl
 
 
 ## WebSocket Events
 
-joinPoll – Join room to receive real-time results
-
-pollUpdate – Broadcast updated poll results
+- joinPoll – Join room to receive real-time results
+- pollUpdate – Broadcast updated poll results
 
 
 ---
 
 
 ### 
+
